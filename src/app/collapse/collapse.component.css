@@ -1,0 +1,18 @@
+.collapseGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding-right: 5%;
+    padding-left:  5%;
+    margin: 0 auto;
+    padding-top:50px;
+  
+}
+.card-bodyDir{
+    direction: rtl;
+    text-align: justify;
+}
+.mb-0_dire{
+    direction: rtl;
+    text-align:center;
+}

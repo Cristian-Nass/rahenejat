@@ -1,0 +1,31 @@
+.historyMain{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.historyGrid{
+padding-right: 10%;
+padding-left: 10%;
+direction: rtl;
+text-align: justify;
+padding-bottom: 20px;
+}
+.historyImage{
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+#bottomText{
+  font-weight: bold;
+  text-align: right;
+  padding: 40px;
+  color:forestgreen;
+}
+  @media screen and (max-width: 700px) {
+    .historyImage{
+        display: none;
+     }
+  }
+  

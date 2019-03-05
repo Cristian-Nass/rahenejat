@@ -1,0 +1,55 @@
+.homeGrid {
+    padding-right: 5%;
+    padding-left:  5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.homeGrid > div {
+    padding: 2em;
+    direction: rtl;
+    text-align: justify;
+    
+}
+.titleSpan{
+    color:dodgerblue;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    #subtitle{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .mainNews{
+        color:seagreen;
+        text-align: center;
+        font-size:20px;
+        padding:40px;
+    }
+    @media screen and (min-width: 700px) {
+        .homeGrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-right: 5%;
+            padding-left:  5%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+            
+      }
+#mainText{
+    color:#205984;
+    text-align: center;
+    font-size:16px;
+    padding:20px;
+    direction: rtl;
+    text-align: justify;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: gainsboro;
+    margin-right: 9%;
+    margin-left: 9%;
+    border-radius: 8px;
+    
+
+
+}      
