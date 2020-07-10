@@ -1,36 +1,42 @@
 <div class="membersMain">
   <br/><br/><br/>
-  برای عضویت در وب سایت لطفا با من تماس بگیرید
+  برای عضویت در وب سایت لطفا با ما تماس بگیرید
   <br/>
   kristian.nasiri@gmail.com
 </div>
 <div *ngFor="let member of members">
   <div *ngIf="member.id %2 != 0">
-    <div class="membersEven"> 
+    <div class="membersEven">
         <div class="memberTextEven">
          <div>نام : {{  member.name }}</div>
-          <div>متن : {{  member.text }}</div>
+          <div>{{  member.text1 }}</div>
+          <div>{{  member.text2 }}</div>
+          <div>{{  member.text3 }}</div>
         </div>
         <div class="memberImg">
-            <img  src= '{{  member.img }}' alt="slide"> 
+            <img  src= '{{  member.img }}' alt="slide">
         </div>
-  
+
     </div>
   </div>
-  <div *ngIf="member.id %2 == 0">     
-      <div class="membersOdd"> 
+  <div *ngIf="member.id %2 == 0">
+      <div class="membersOdd">
           <div class="memberImg">
-              <img  src='{{  member.img }}' alt="slide"> 
+              <img  src='{{  member.img }}' alt="slide">
           </div>
 
           <div class="memberTextOdd">
            <div>نام : {{  member.name }}</div>
-            <div>متن : {{  member.text }}</div>
+           <div>{{  member.text1 }}</div>
+            <div>{{  member.text2 }}</div>
+            <div>{{  member.text3 }}</div>
           </div>
-    
+
       </div>
-  
-  
+
+
   </div>
   <div style="width: 90%; height: 1px; background-color:#b8b8b8; margin: 0 auto;text-align: center; margin-bottom: 30px; margin-top: 30px;" ></div>
+  <!------------------------------- -->
+
 </div>
