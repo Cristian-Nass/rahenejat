@@ -24,8 +24,17 @@ export class MembersComponent implements OnInit {
       text2: 'تنها راه شناخت خداوند و رسیدن به رستگاری کامل راه مسیحیت است . ',
       text3: 'خداوندی که گناهان ما را به خود گرفت و جانش را برای رستگاری ما فدا کرد .',
       img: 'assets/members/mehdilogo.png'
+    },
+    {
+      id: 3,
+      name: 'محمود محمدعلیزاده',
+      text1: 'تعمید : ۱ مارس ۲۰۱۶',
+      text2: 'برای آشنایی با حقیقت با ما همراه شوید ،',
+      text3: 'آگاهی کلید آزادی است',
+      img: 'assets/members/miki.png'
     }
-];
+
+  ];
   ngOnInit() {
   }
 
